@@ -1,0 +1,469 @@
+{
+  "header": {
+    "firstName": "Clément",
+    "lastName": "Olivier",
+    "title": "💬 NLP Expert - ⚗️ Data Scientist - 🖥️ Full Stack Developer"
+  },
+  "summary": {
+    "title": "Ph.D Senior Freelancer",
+    "description": "I specialize in the design and implementation of custom AI solutions tailored to business needs. My expertise spans Natural Language Processing (NLP), Machine Learning (ML), and Web Development, with a strong focus on cutting-edge AI technologies. I also provide project management guidance to ensure smooth execution and timely delivery.",
+    "specialties": [
+      {
+        "title": "AI & NLP",
+        "description": "Leveraging advanced solutions for tasks such as generative AI, RAG, semantic search"
+      },
+      {
+        "title": "Data Science",
+        "description": "Employing ML and statistical techniques to craft predictive models and derive data-driven insights"
+      },
+      {
+        "title": "Full Stack Development",
+        "description": "Building end-to-end applications with modern frontend and backend technologies"
+      }
+    ]
+  },
+  "contact": [
+    {
+      "icon": "uil:envelope",
+      "text": "clementolivier.co@gmail.com"
+    },
+    {
+      "icon": "uil:location-point",
+      "text": "Lyon, France"
+    },
+    {
+      "icon": "uil:linkedin",
+      "text": "linkedin.com/in/clement-olivier"
+    },
+    {
+      "icon": "uil:github",
+      "text": "github.com/ClementOLIVIER"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Professional"
+    },
+    {
+      "language": "French",
+      "proficiency": "Native"
+    }
+  ],
+  "skills": [
+    {
+      "title": "AI & NLP",
+      "color": "blue",
+      "items": [
+        "NLP",
+        "LLM",
+        "RAG",
+        "Semantic & Hybrid Search",
+        "Hugging Face",
+        "Mistral",
+        "Llama 3.1"
+      ]
+    },
+    {
+      "title": "Data Science",
+      "color": "red",
+      "items": [
+        "Machine Learning (ML)",
+        "Unsupervised Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "Data Visualization"
+      ]
+    },
+    {
+      "title": "Backend & DevOps",
+      "color": "rose",
+      "items": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch",
+        "Weaviate",
+        "CI/CD (Jenkins, GitLab)"
+      ]
+    },
+    {
+      "title": "Frontend",
+      "color": "slate",
+      "items": [
+        "Vue.js",
+        "Nuxt 3",
+        "Tailwind CSS"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Ph.D. - Applied Mathematics",
+      "institution": "MINES Paris - PSL",
+      "date": "2014 - 2017",
+      "location": "Paris, France"
+    },
+    {
+      "title": "Engineer's Degree - Applied Mathematics",
+      "institution": "ENSTA Paris",
+      "date": "2010 - 2014",
+      "location": "Paris, France"
+    }
+  ],
+  "projects": [
+    {
+      "title": "📝 Dynamic Repair Order Form",
+      "type": "freelance",
+      "startDate": "2022-10",
+      "endDate": "2023-10",
+      "company": "Goodloop",
+      "description": "Built a customizable repair order form integrated with WordPress & WooCommerce. Direct project for Goodloop.",
+      "sections": [
+        {
+          "title": "🎯 Need",
+          "items": [
+            "A guided questionnaire for selecting repairs.",
+            "Seamless WooCommerce integration for checkout.",
+            "A no-code configuration system for easy updates."
+          ]
+        },
+        {
+          "title": "🧩 Challenges",
+          "items": [
+            "Designing a dynamic form engine capable of handling complex, conditional scenarios.",
+            "Ensuring automated deployment with minimal manual intervention.",
+            "Managing the entire project solo — from planning and coding to deployment and support.",
+            "Building a flexible, no-code configuration system for non-technical users."
+          ]
+        },
+        {
+          "title": "🚀 Impact",
+          "items": [
+            "500+ monthly orders, running in production for 2+ years.",
+            "Reduced repair selection to 10 questions.",
+            "Fully configurable without developer intervention.",
+            "Adopted by other brands, supporting Goodloop’s 2025 fundraising."
+          ]
+        }
+      ],
+      "stack": [
+        "Python",
+        "Vue.js",
+        "Docker",
+        "Streamlit",
+        "WordPress",
+        "WooCommerce"
+      ]
+    },
+    {
+      "title": "🔍 Semantic Search Engine",
+      "type": "freelance",
+      "startDate": "2023-06",
+      "endDate": "2024-01",
+      "company": "Ecolab (Ministère de l'Environnement)",
+      "description": "Redesigned the search engine for mes-services-greentech.ecologie.gouv.fr, integrating hybrid search with automated data ingestion to improve accuracy and freshness. Direct project for Ecolab.",
+      "sections": [
+        {
+          "title": "🎯 Need",
+          "items": [
+            "Enhance search quality",
+            "Automate data ingestion for up-to-date and consolidated records.",
+            "Monitor data ingestion and customer usage"
+          ]
+        },
+        {
+          "title": "🧩 Challenges",
+          "items": [
+            "Transitioning from classical search to a hybrid model with BM25 and semantic similarity.",
+            "Rebuilding the full backend with ELT pipeline served with a FastAPI API"
+          ]
+        },
+        {
+          "title": "🚀 Impact",
+          "items": [
+            "Improved search relevance and retrieval speed.",
+            "Continuous updates ensuring fresh, structured data.",
+            "Positioned by the Ecolab as a key tool for collaboration between local governments and innovative companies."
+          ]
+        }
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Dagster",
+        "MongoDB",
+        "Elasticsearch",
+        "Weaviate",
+        "Docker",
+        "Scaleway"
+      ]
+    },
+    {
+      "title": "📑 RAG API for Financial Document Analysis",
+      "type": "freelance",
+      "startDate": "2023-09",
+      "endDate": "2023-11",
+      "company": "OpenIR (start-up)",
+      "description": "Developed a RAG-powered API for analyzing financial documents, enabling structured queries, open-ended questions, and precise data extraction. Consulting project via Deepika (deepika.ai).",
+      "sections": [
+        {
+          "title": "🎯 Need",
+          "items": [
+            "Extract accurate financial insights from reports and documents.",
+            "Support various query types, including open-ended and structured searches.",
+            "Benchmark response quality for continuous optimization."
+          ]
+        },
+        {
+          "title": "🧩 Challenges",
+          "items": [
+            "Designing a financial dataset to evaluate recall and accuracy.",
+            "Optimizing query structuring for improved retrieval.",
+            "Implementing a hybrid search engine (BM25 + embeddings).",
+            "Exploring LLM-based structured prompting for accurate response generation."
+          ]
+        },
+        {
+          "title": "🚀 Impact",
+          "items": [
+            "Proof-of-concept API, validating the startup’s product vision.",
+            "Provided a working prototype for early user testing and refinement.",
+            "Helped define next steps for scaling and integrating the solution."
+          ]
+        }
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "OpenAI",
+        "Mistral",
+        "Docker",
+        "OutScale"
+      ]
+    },
+    {
+      "title": "📄 Structured Data Extraction via RAG",
+      "type": "freelance",
+      "startDate": "2023-01",
+      "endDate": "2024-01",
+      "company": "BNP",
+      "description": "Developed an advanced RAG-based system for extracting key structured financial data from unstructured documents. Consulting project via Quickscale (quickscale.ai).",
+      "sections": [
+        {
+          "title": "🎯 Need",
+          "items": [
+            "Automate extraction of critical financial information.",
+            "Process diverse document formats with structured output.",
+            "Standardize extracted data for internal workflows."
+          ]
+        },
+        {
+          "title": "🧩 Challenges",
+          "items": [
+            "Handling heterogeneous PDF types with reliable text and table extraction.",
+            "Optimizing retrieval and indexing via hybrid BM25 + embeddings.",
+            "Adapting NLP models to financial domain-specific language.",
+            "Exploring advanced prompt engineering (Chain of Thought + Structured Output) for precise entity extraction.",
+            "Deploying the solution fully on-premises due to restricted public API access.",
+            "Deploying for production environment: Dockerized infrastructure, automated CI/CD via Jenkins, and an interactive document upload demo."
+          ]
+        },
+        {
+          "title": "🚀 Impact",
+          "items": [
+            "Reduced analysis time for financial documents.",
+            "Production-ready solution scaled to multiple use cases within BNP.",
+            "Evolved from an experimental project (4 developers) to a strategic AI initiative (10+ developers)."
+          ]
+        }
+      ],
+      "stack": [
+        "YOLO",
+        "VGT",
+        "Camelot",
+        "BM25",
+        "ChromaDB",
+        "Chain of Thought",
+        "Huggingface",
+        "Langchain",
+        "Mistral",
+        "Llama 3.1",
+        "FastAPI",
+        "Docker",
+        "Jenkins",
+        "Streamlit"
+      ]
+    },
+    {
+      "title": "🔄 Automated Repair Declarations",
+      "type": "freelance",
+      "startDate": "2024-12",
+      "endDate": "2024-12",
+      "company": "Goodloop",
+      "description": "Automated the monthly declaration of repair services eligible for the Bonus Réparation via the Refashion API, reducing processing time from one day to 15 minutes. Direct project for Goodloop.",
+      "sections": [
+        {
+          "title": "🎯 Need",
+          "items": [
+            "Automate data extraction and submission to save time.",
+            "Ensure accuracy by eliminating manual entry errors."
+          ]
+        },
+        {
+          "title": "🧩 Challenges",
+          "items": [
+            "Establishing secure API authentication using token-based access.",
+            "Handling monitoring and error management to ensure reliability.",
+            "Structuring and formatting data to meet Refashion API requirements."
+          ]
+        },
+        {
+          "title": "🚀 Impact",
+          "items": [
+            "Reduced processing time from 1 day to 15 minutes."
+          ]
+        }
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Make",
+        "Airtable"
+      ]
+    },
+    {
+      "title": "🤖 AI/NLP Mission for GTT",
+      "type": "freelance",
+      "startDate": "2024-12",
+      "endDate": "2025-03",
+      "company": "GTT (Gaztransport & Technigaz)",
+      "description": "GTT required an AI solution to support engineers with technical documentation. Due to the sensitive nature of the project, specific technical details cannot be disclosed. Consulting project via Deepika (deepika.ai).",
+      "stack": [
+        "Retrieval-Augmented Generation (RAG)",
+        "Large Language Models (LLM)",
+        "Hybrid Search (BM25 + Embeddings)",
+        "Mistral",
+        "PostgreSQL",
+        "Nuxt.js",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "title": "🎓 Doctor of Philosophy (PhD) – Applied Mathematics",
+      "type": "professional",
+      "startDate": "2014",
+      "endDate": "2017",
+      "company": "Safran Tech - MINES Paris",
+      "location": "Paris, France",
+      "description": "As part of my CIFRE PhD at Safran Tech, I proposed an AI-driven surrogate modeling solution to approximate high-fidelity material simulations. This approach significantly reduced computational costs by orders of magnitude while improving decision-making efficiency for material science experts.",
+      "sections": [
+        {
+          "title": "✨ Highlights",
+          "items": [
+            "Developed a data-driven surrogate model to replace costly nonlinear material simulations, significantly improving efficiency.",
+            "Enabled engineers to test material behavior interactively",
+            "Built a Python-based library, allowing seamless model deployment in industrial environments.",
+            "Collaborated closely with academicExperiences, material engineers, and decision-makers.",
+            "Applied advanced high-dimensional tensor decomposition techniques."
+          ]
+        },
+        {
+          "title": "🌟 Achievements",
+          "items": [
+            "Thesis title: \"Décompositions tensorielles et factorisations de calculs intensifs appliquées à l'identification de modèles de comportement non linéaire\"",
+            "Published research in academic journals & presented at leading international conferences:\n→ Projection-Based Model Reduction, Oberwolfach, Germany\n  - Tensor Decompositions and Applications, Leuven, Belgium\n  - Workshop on Order Reduction Methods, Bad Herrenald, Germany\n  - U.S. National Congress on Computational Mechanics, Montréal, Canada"
+          ]
+        }
+      ],
+      "stack": [
+        "Python",
+        "C++",
+        "JavaScript",
+        "WebSocket"
+      ]
+    },
+    {
+      "title": "💼 Teaching Assistant",
+      "type": "professional",
+      "startDate": "2015-12",
+      "endDate": "2015-09",
+      "location": "Evry, France",
+      "company": "Centre des Matériaux - Mines ParisTech",
+      "description": "I taught for the Mastère Design des Matériaux et des Structures (DMS) program, focusing on Finite Element Methods (FEM) for Non-Linear Mechanics. Assisted graduate students in mastering numerical simulations and material behavior modeling.",
+      "sections": []
+    },
+    {
+      "title": "🤖 R&D Engineer in Natural Language Processing",
+      "type": "professional",
+      "startDate": "2018-01",
+      "endDate": "2019-05",
+      "location": "Antony, France",
+      "company": "OWI Technologies",
+      "description": "I developed and enhanced Natural Language Understanding (NLU) models for automated customer interactions. I focused on machine learning-driven response suggestions, chatbot improvements, and self-learning NLP modules.",
+      "sections": [
+        {
+          "title": "✨ Highlights",
+          "items": [
+            "Designed machine learning models to improve automated email response recommendations.",
+            "Enhanced chatbot decision workflows.",
+            "Built a self-learning NLP module in Python, handling MySQL queries, execution pipelines, and production deployment.",
+            "Optimized intent recognition for better context-aware conversation handling.",
+            "Led the GitLab integration, modernizing CI/CD and version control workflows.",
+            "Designed a secure credential vault, improving identity and access management (IAM)."
+          ]
+        }
+      ],
+      "stack": [
+        "Python",
+        "MySQL",
+        "C++",
+        "Elasticsearch",
+        "Git",
+        "Chatbot"
+      ]
+    },
+    {
+      "title": "🧠 Senior Data Scientist in Natural Language Processing",
+      "type": "professional",
+      "startDate": "2019-05",
+      "endDate": "2022-08",
+      "location": "Lyon, France",
+      "company": "Miuros (Acquired by Dixa)",
+      "description": "I led the development of NLP-driven automation tools for customer service, integrating supervised and unsupervised machine learning models. I focused on text classification, clustering & topic modeling for topic trend detection and tracking.",
+      "sections": [
+        {
+          "title": "✨ Highlights",
+          "items": [
+            "Developed unsupervised NLP models, leveraging text clustering, topic modeling, and keyword extraction to surface trends in customer messages.",
+            "Built supervised classification and recommendation systems to improve automated responses.",
+            "Designed and deployed NLP pipelines using MLOps best practices for scalability and efficiency.",
+            "Created human-in-the-loop interfaces, allowing users to refine AI-driven insights interactively.",
+            "Explored cutting-edge NLP techniques like Transformers, Sentence Embeddings, and Auto-Encoders.",
+            "Collaborated closely with customer teams and academic researchers (LORIA) to advance AI solutions."
+          ]
+        }
+      ],
+      "stack": [
+        "PyTorch",
+        "TensorFlow",
+        "Transformers",
+        "Spacy",
+        "Scikit-Learn",
+        "UMAP",
+        "HDBScan",
+        "Auto-Encoders",
+        "Prototypical Networks",
+        "FastAPI",
+        "Docker",
+        "AWS",
+        "Vue.js"
+      ]
+    }
+  ]
+}

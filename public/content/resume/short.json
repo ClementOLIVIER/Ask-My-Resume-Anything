@@ -1,0 +1,251 @@
+{
+  "header": {
+    "firstName": "Clément",
+    "lastName": "Olivier",
+    "title": "💬 NLP Expert - ⚗️ Data Scientist - 🖥️ Full Stack Developer"
+  },
+  "summary": {
+    "title": "Ph.D Senior Freelancer",
+    "description": "I specialize in the design and implementation of custom AI solutions tailored to business needs. My expertise spans Natural Language Processing (NLP), Machine Learning (ML), and Web Development, with a strong focus on cutting-edge AI technologies. I also provide project management guidance to ensure smooth execution and timely delivery.",
+    "specialties": [
+      {
+        "title": "AI & NLP",
+        "description": "Leveraging advanced solutions for tasks such as generative AI, RAG, semantic search"
+      },
+      {
+        "title": "Data Science",
+        "description": "Employing ML and statistical techniques to craft predictive models and derive data-driven insights"
+      },
+      {
+        "title": "Full Stack Development",
+        "description": "Building end-to-end applications with modern frontend and backend technologies"
+      }
+    ]
+  },
+  "contact": [
+    {
+      "icon": "uil:envelope",
+      "text": "clementolivier.co@gmail.com"
+    },
+    {
+      "icon": "uil:location-point",
+      "text": "Lyon, France"
+    },
+    {
+      "icon": "uil:linkedin",
+      "text": "linkedin.com/in/clement-olivier"
+    },
+    {
+      "icon": "uil:github",
+      "text": "github.com/ClementOLIVIER"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Professional"
+    },
+    {
+      "language": "French",
+      "proficiency": "Native"
+    }
+  ],
+  "skills": [
+    {
+      "title": "AI & NLP",
+      "color": "blue",
+      "items": [
+        "NLP",
+        "LLM",
+        "RAG",
+        "Semantic & Hybrid Search",
+        "Hugging Face",
+        "Mistral",
+        "Llama 3.1"
+      ]
+    },
+    {
+      "title": "Data Science",
+      "color": "red",
+      "items": [
+        "Machine Learning (ML)",
+        "Unsupervised Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "Data Visualization"
+      ]
+    },
+    {
+      "title": "Backend & DevOps",
+      "color": "rose",
+      "items": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch",
+        "Weaviate",
+        "CI/CD (Jenkins, GitLab)"
+      ]
+    },
+    {
+      "title": "Frontend",
+      "color": "slate",
+      "items": [
+        "Vue.js",
+        "Nuxt 3",
+        "Tailwind CSS"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Ph.D. - Applied Mathematics",
+      "institution": "MINES Paris - PSL",
+      "date": "2014 - 2017",
+      "location": "Paris, France"
+    },
+    {
+      "title": "Engineer's Degree - Applied Mathematics",
+      "institution": "ENSTA Paris",
+      "date": "2010 - 2014",
+      "location": "Paris, France"
+    }
+  ],
+  "projects": [
+    {
+      "title": "📝 Dynamic Repair Order Form",
+      "type": "freelance",
+      "startDate": "2022-10",
+      "endDate": "2023-10",
+      "company": "Goodloop",
+      "description": "Developed a customizable repair order form integrated with WordPress & WooCommerce, resulting in 500+ monthly orders and streamlining repair selection.",
+      "stack": [
+        "Python",
+        "Vue.js",
+        "Docker",
+        "Streamlit",
+        "WordPress",
+        "WooCommerce"
+      ]
+    },
+    {
+      "title": "🔍 Semantic Search Engine",
+      "type": "freelance",
+      "startDate": "2023-06",
+      "endDate": "2024-01",
+      "company": "Ecolab (Ministère de l'Environnement)",
+      "description": "Redesigned a search engine, integrating hybrid search and automated data ingestion, improving relevance and speed.  Key tool for government collaboration.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Dagster",
+        "MongoDB",
+        "Elasticsearch",
+        "Weaviate",
+        "Docker",
+        "Scaleway"
+      ]
+    },
+    {
+      "title": "📑 RAG API for Financial Document Analysis",
+      "type": "freelance",
+      "startDate": "2023-09",
+      "endDate": "2023-11",
+      "company": "OpenIR (start-up)",
+      "description": "Built a RAG-powered API for analyzing financial documents, enabling structured and open-ended queries, and validating the startup's product vision.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "OpenAI",
+        "Mistral",
+        "Docker",
+        "OutScale"
+      ]
+    },
+    {
+      "title": "📄 Structured Data Extraction via RAG",
+      "type": "freelance",
+      "startDate": "2023-01",
+      "endDate": "2024-01",
+      "company": "BNP",
+      "description": "Developed a RAG system for extracting financial data from unstructured documents, resulting in a production-ready solution scaled across multiple use cases.",
+      "stack": [
+        "YOLO",
+        "VGT",
+        "Camelot",
+        "BM25",
+        "ChromaDB",
+        "Chain of Thought",
+        "Huggingface",
+        "Langchain",
+        "Mistral",
+        "Llama 3.1",
+        "FastAPI",
+        "Docker",
+        "Jenkins",
+        "Streamlit"
+      ]
+    },
+    {
+      "title": "🧠 Senior Data Scientist in Natural Language Processing",
+      "type": "profesionnal",
+      "startDate": "2019-05",
+      "endDate": "2022-08",
+      "location": "Lyon, France",
+      "company": "Miuros (Acquired by Dixa)",
+      "description": "Led development of NLP-driven automation tools for customer service, integrating supervised and unsupervised ML models for improved automated responses and trend detection.",
+      "stack": [
+        "PyTorch",
+        "TensorFlow",
+        "Transformers",
+        "Spacy",
+        "Scikit-Learn",
+        "UMAP",
+        "HDBScan",
+        "Auto-Encoders",
+        "Prototypical Networks",
+        "FastAPI",
+        "Docker",
+        "AWS",
+        "Vue.js"
+      ]
+    },
+    {
+      "title": "🤖 R&D Engineer in Natural Language Processing",
+      "type": "profesionnal",
+      "startDate": "2018-01",
+      "endDate": "2019-05",
+      "location": "Antony, France",
+      "company": "OWI Technologies",
+      "description": "Developed and enhanced NLU models for automated customer interactions, focusing on machine learning-driven response suggestions and self-learning NLP modules.",
+      "stack": [
+        "Python",
+        "MySQL",
+        "C++",
+        "Elasticsearch",
+        "Git",
+        "Chatbot"
+      ]
+    },
+    {
+      "title": "🎓 Doctor of Philosophy (PhD) – Applied Mathematics",
+      "type": "profesionnal",
+      "startDate": "2014",
+      "endDate": "2017",
+      "company": "Safran Tech - MINES Paris",
+      "location": "Paris, France",
+      "description": "Developed an AI-driven surrogate modeling solution to approximate high-fidelity material simulations, significantly reducing computational costs and improving decision-making efficiency.",
+      "stack": [
+        "Python",
+        "C++",
+        "JavaScript",
+        "WebSocket"
+      ]
+    }
+  ]
+}

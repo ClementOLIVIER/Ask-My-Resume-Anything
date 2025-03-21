@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paperGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2196F3" />
+      <stop offset="100%" stop-color="#0D47A1" />
+    </linearGradient>
+    <linearGradient id="foldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#64B5F6" />
+      <stop offset="100%" stop-color="#1E88E5" />
+    </linearGradient>
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feOffset dx="0.5" dy="0.5" result="offsetBlur"/>
+      <feComposite in="SourceGraphic" in2="offsetBlur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <!-- Main document body with gradient and shadow -->
+  <path d="M18 19a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5v3a3 3 0 0 0 3 3h3Z" fill="url(#paperGradient)" filter="url(#dropShadow)"/>
+  
+  <!-- Document fold with gradient -->
+  <path d="M14 7V5l4 4h-3a1 1 0 0 1-1-1Z" fill="url(#foldGradient)"/>
+  
+  <!-- Document lines with subtle glow -->
+  <path d="M9 10h1a1 1 0 0 0 0-2H9a1 1 0 0 0 0 2zm0 2a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Zm6 4H9a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Z" fill="#FFFFFF" filter="url(#dropShadow)"/>
+  
+  <!-- Outer document shape with subtle outline -->
+  <path d="M20 8.94a1.3 1.3 0 0 0-.06-.27v-.09a1 1 0 0 0-.19-.28l-6-6a1 1 0 0 0-.28-.19a.3.3 0 0 0-.09 0a.9.9 0 0 0-.33-.11H7a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3zm-6-3.53L16.59 8H15a1 1 0 0 1-1-1ZM18 19a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5v3a3 3 0 0 0 3 3h3Z" fill="none" stroke="#0D47A1" stroke-width="0.5" opacity="0.8"/>
+</svg>

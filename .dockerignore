@@ -1,0 +1,15 @@
+# flyctl launch added from .gitignore
+# Nuxt
+**/.output
+**/.data
+**/.nuxt
+
+# Node dependencies
+**/node_modules
+
+# Env
+**/.env
+
+# Local
+**/local
+fly.toml
