@@ -70,21 +70,5 @@
     max-width: 100%;
   }
 
-  /* Make sure the desktop layout is correctly displayed */
-  .hidden.md\:flex {
-    display: flex !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 auto !important;
-  }
-
-  /* Ensure proper width ratio for desktop layout */
-  .hidden.md\:flex > div.w-1/3 {
-    width: 30% !important;
-  }
-
-  .hidden.md\:flex > div.w-2/3 {
-    width: 70% !important;
-  }
 }
 </style>
