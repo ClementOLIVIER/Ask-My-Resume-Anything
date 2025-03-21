@@ -21,6 +21,12 @@ onMounted(() => {
   const windowWidthInRem = window.innerWidth / 16;
   panelWidth.value = Math.min(30, windowWidthInRem / 3);
   panelWidth.value = Math.max(20, panelWidth.value);
+
+  if (isMobile.value) {
+    isOpen.value = false; // Close the panel on mobile when unmounted
+  } else {
+    isOpen.value = true; // Keep the panel open on desktop when unmounted
+  }
 });
 
 onUnmounted(() => {
