@@ -6,8 +6,11 @@ export default defineEventHandler(async (event) => {
   try {
     const { userMessage, messageHistory, resumeContent } = await readBody(event);
     
-    // Log incoming user message
-    console.log('📩 Incoming user message:', userMessage);
+    // Generate a unique message ID (timestamp + random string)
+    const messageId = `msg_${Date.now()}_${Math.random().toString(36).substring(2, 10)}`;
+    
+    // Log incoming user message with ID
+    console.log(`📩 Incoming user message [${messageId}]:`, userMessage);
 
     if (!userMessage) {
       throw createError({
@@ -63,8 +66,8 @@ export default defineEventHandler(async (event) => {
     const result = await chatSession.sendMessage(userMessage);
     const responseText = result.response.text();
     
-    // Log assistant response
-    console.log('📤 Assistant response:', responseText);
+    // Log assistant response with the same message ID
+    console.log(`📤 Assistant response [${messageId}]:`, responseText);
     
     return {
       success: true,
