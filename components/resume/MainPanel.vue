@@ -1,7 +1,7 @@
 <template>
   <div class="main-resume">
     <!-- Mobile layout (flex-col) -->
-    <div class="flex flex-col md:hidden w-full shadow-xl bg-white rounded-lg overflow-hidden">
+    <div class="flex flex-col md:hidden w-full shadow-xl bg-white rounded-lg overflow-hidden print:hidden">
       <!-- Photo at the top for mobile -->
       <div class="bg-gradient-to-b from-slate-700 to-slate-900 px-4 py-6 flex justify-center">
         <resume-sidebar-photo />
@@ -63,20 +63,28 @@
 
 @media print {
   .main-resume {
-    margin: 0;
+    margin: 0 auto !important;
     box-shadow: none;
     border-radius: 0;
     width: 100%;
     max-width: 100%;
   }
 
-  /* Show only the desktop layout when printing */
-  .main-resume > div:first-child {
-    display: none;
+  /* Make sure the desktop layout is correctly displayed */
+  .hidden.md\:flex {
+    display: flex !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
   }
 
-  .main-resume > div:last-child {
-    display: flex;
+  /* Ensure proper width ratio for desktop layout */
+  .hidden.md\:flex > div.w-1/3 {
+    width: 30% !important;
+  }
+
+  .hidden.md\:flex > div.w-2/3 {
+    width: 70% !important;
   }
 }
 </style>

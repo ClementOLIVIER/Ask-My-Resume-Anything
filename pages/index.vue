@@ -19,7 +19,7 @@ onMounted(init)
   <div class="flex w-full h-screen print:block print:h-auto">
     <!-- Main content -->
     <div
-      class="flex-1 overflow-y-auto print:overflow-visible"
+      class="flex-1 overflow-y-auto print:overflow-visible print:w-full print:m-0"
       :style="mainContentStyle"
     >
       <div class="flex flex-col items-center justify-center py-4 md:py-8 print:py-0">
@@ -61,13 +61,26 @@ body {
     margin: 0.5cm;
   }
 
+  /* Reset any dynamic styles that might affect layout */
+  [style*="margin-right"] {
+    margin-right: 0 !important;
+  }
+
   /* Center content on page */
   .main-resume {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
     box-shadow: none !important;
     border-radius: 0 !important;
+  }
+
+  /* Ensure desktop layout is visible and centered */
+  .hidden.md\:flex {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+    width: 100% !important;
   }
 
   /* Better color support for printing */
